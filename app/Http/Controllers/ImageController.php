@@ -62,7 +62,6 @@ class ImageController extends Controller
         $this->createThumbnail($largethumbnailpath, 550, 340, 'large', $largetPath, $filenametostore);
 
         return redirect('image')->with('success', "Image uploaded successfully.");
-
     }
 
     /**
